@@ -18,19 +18,13 @@ const holidays = [
 ];
 
 // for文
-for (let count = 0; count < 2; count++) {
-  for (let i = 0; i < holidays.length; i++) {
-    console.log(holidays[i]);
-  }
+for (let i = 0; i < holidays.length; i++) {
+  console.log(holidays[i]);
 }
 
-let loop = 0;
-
-while (loop < 2) {
-  let i = 0;
-  while (i < holidays.length) {
-    console.log(holidays[i]);
-    i++;
-  }
-  loop++;
+// while文
+let i = 0;
+while (i < holidays.length) {
+  console.log(holidays[i]);
+  i++;
 }
